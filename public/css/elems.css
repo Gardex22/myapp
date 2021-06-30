@@ -1,0 +1,135 @@
+*::-webkit-scrollbar-track{ border-radius: 0px; width: 7px;}
+*::-webkit-scrollbar { width: 10px;}
+*::-webkit-scrollbar-thumb { border-radius: 4px; background-color: #535353;}
+
+.s_title
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: rgba(60,90,168, .6);
+}
+
+label
+{
+	font-size: 14px;
+	line-height: 2em;
+	color: #5D6D97;
+}
+
+.list_title
+{
+	font-size: 18px;
+	font-weight: 300;
+	color: #5D6D97;
+}
+
+.material-icons
+{
+	color: #5D6E97;
+}
+
+.list 
+{
+	padding-left: 40px;
+}
+
+.list * 
+{
+	font-size: 14px;
+	font-weight: 300px;
+	color: #5D6D97;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.list *:hover 
+{
+	font-weight: 500;
+}
+
+
+.table
+{
+	padding: 20px 0;
+	border-radius: 10px;
+	box-shadow: 4px 0px 10px rgba(93, 109, 151, 0.1)
+}
+
+.table strong 
+{
+	text-transform: uppercase;
+}
+
+.table *
+{
+	font-size: 14px;
+	font-weight: 400;
+	color:  #5D6D97;
+}
+
+.t_row
+{
+	border-bottom: 1px solid rgba(93, 110, 151, 0.4);
+}
+
+.t_s
+{
+	border-right: 1px solid rgba(93, 110, 151, 0.4);;
+}
+
+
+.form_group,
+.cell
+{
+	padding: 10px 20px;
+}
+
+.form_input
+{
+	padding: 15px 20px;
+	min-width: 200px;
+	width: 100%;
+	border: 1px solid rgb(187,187,187);
+	border-radius: 10px;
+}
+
+.btn
+{
+	padding: 18px 35px;
+	color: rgb(255,255,255);
+	border-radius: 10px;
+	cursor: pointer;
+	opacity: .85;
+}
+
+.btn_lg 
+{
+	padding: 22px 40px;
+	font-size: 20px;
+}
+
+.btn_block
+{
+	width: 100%;
+}
+
+.btn:hover 
+{
+	opacity: 1;
+}
+
+
+.btn_blue
+{
+	background: rgb(74,157,255);
+}
+
+.btn_green
+{
+	background: rgb(85,170,0);
+}
+
+.btn_red 
+{
+	background: rgb(221,0,34);
+}

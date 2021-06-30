@@ -1,0 +1,55 @@
+.app_layout
+{
+	width: 100vw;
+	height: 100vh;
+
+	display: grid;
+	grid-template-columns: 200px 1fr;
+	grid-template-rows: 60px 1fr;
+	grid-gap: 10px;
+
+	grid-template-areas: "h h"
+						 "s c";
+}
+
+
+header
+{
+	padding: 0 20px;
+	box-shadow: 4px 0px 10px rgba(93, 109, 151, 0.1);
+	grid-area: h;
+}
+
+aside
+{
+	box-shadow: 0 4px 10px rgba(93, 109, 151, 0.1);
+	grid-area: s;
+	padding: 20px;
+}
+
+main 
+{
+	padding: 30px 0;
+	max-height: calc(100vh - 70px);
+	overflow-y: auto;
+	box-shadow: 0 -4px 10px rgba(93, 109, 151, 0.1);
+	grid-area: c;
+}
+
+.logo_app
+{
+	font-size: 20px;
+	color: #5D6E97;
+	text-transform: uppercase;
+}
+
+.logout
+{
+	cursor: pointer;
+	opacity: .85;
+}
+
+.logout:hover 
+{
+	opacity: 1;
+}
